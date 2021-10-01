@@ -1,6 +1,7 @@
 .header {
   width: 100%;
   overflow: hidden;
+  @apply flex flex-col items-center justify-between my-4 laptop:flex-row;
 
   & .leftDiv {
     animation-name: fadeInLeft;
@@ -9,12 +10,12 @@
       animation: show 2s 1 3s;
     }
     & p {
+      @apply mb-10 font-black tracking-tighter text-text-24 tablet:text-text-36 desktop:text-text-72 text-blue-dark;
       animation: show 2s 1 4s;
     }
     & button {
-      animation: show 2s 1 4.5s;
-
-      animation: jello 2s infinite 5s;
+      @apply px-4 py-2 font-black transition ease-in-out delay-100 border-4 text-text-24 border-blue-light text-blue-dark hover:bg-blue-light hover:text-whiteBlack-w;
+      animation: show 2s 1 4.5s, jello 2s infinite 5s;
     }
   }
   & .banner {
