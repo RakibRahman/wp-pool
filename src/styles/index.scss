@@ -1,3 +1,10 @@
+@import url("https://p.typekit.net/p.css?s=1&k=zbn2ksk&ht=tk&f=25750.25753.25761.25762.25763.25764.25765.25766.25767.25768&a=84260833&app=typekit&e=css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+* {
+  font-family: eurostile, sans-serif;
+}
+.App {
+  background: #ffffff;
+}

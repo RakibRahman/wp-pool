@@ -20,6 +20,23 @@ module.exports = {
         light: "#f0c331",
       },
     },
+    fontSize: {
+      "text-one": "21px",
+      "text-24": "24px",
+      "text-36": "36px",
+      "text-48": "48px",
+      "text-72": "72px",
+    },
+    screens: {
+      tablet: "640px",
+      // => @media (min-width: 640px) { ... }
+
+      laptop: "960px",
+      // => @media (min-width: 1024px) { ... }
+
+      desktop: "1280px",
+      // => @media (min-width: 1280px) { ... }
+    },
     extend: {},
   },
   variants: {
