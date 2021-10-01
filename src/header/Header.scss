@@ -13,7 +13,7 @@
       @apply mb-10 font-black tracking-tighter text-text-24 tablet:text-text-36 desktop:text-text-72 text-blue-dark;
       animation: show 2s 1 4s;
     }
-    & button {
+    & .btn {
       @apply px-4 py-2 font-black transition ease-in-out delay-100 border-4 text-text-24 border-blue-light text-blue-dark hover:bg-blue-light hover:text-whiteBlack-w;
       animation: show 2s 1 4.5s, jello 2s infinite 5s;
     }

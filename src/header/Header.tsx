@@ -18,7 +18,7 @@ export const Header = () => {
       <div className="pl-10 overflow-hidden leftDiv laptop:w-3/6">
         <h1 className="text-text-30 text-blue-light">What is Lorem Ipsum?</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and</p>
-        <button>Learn About</button>
+        <button className="btn">Learn About</button>
       </div>
       <div className="banner">
         <img src={Banner} alt="banner" />
