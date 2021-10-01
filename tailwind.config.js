@@ -23,6 +23,7 @@ module.exports = {
     fontSize: {
       "text-one": "21px",
       "text-24": "24px",
+      "text-30": "30px",
       "text-36": "36px",
       "text-48": "48px",
       "text-72": "72px",
