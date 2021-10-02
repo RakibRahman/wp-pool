@@ -3,12 +3,13 @@ import "animate.css";
 
 import { Nav } from "./nav/Nav";
 import { Header } from "./header/Header";
+import { CardContainer } from "./card/CardContainer";
 function App() {
   return (
     <div className="App">
       <Nav />
       <Header />
-      <div>lorem ipsum dolor sit amet, con</div>
+      <CardContainer />
     </div>
   );
 }
