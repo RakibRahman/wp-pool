@@ -2,7 +2,6 @@ import "./Header.scss";
 
 import BGText from "../assets/header-text.svg";
 import Banner from "../assets/header.svg";
-import Cross from "../assets/header-cross.svg";
 export const Header = () => {
   return (
     <div
@@ -11,8 +10,8 @@ export const Header = () => {
       style={{
         backgroundImage: `url(${BGText})`,
         backgroundPosition: "left center",
-        backgroundSize: "180%",
         backgroundRepeat: "no-repeat",
+        backgroundSize: "180%",
       }}
     >
       <div className="pb-6 pl-10 overflow-hidden leftDiv laptop:w-3/6">
