@@ -1,0 +1,29 @@
+.about {
+  height: 90rem;
+  @media screen and (max-width: 650px) {
+    height: 65rem;
+  }
+}
+.value {
+  height: 60rem;
+  margin-bottom: 8rem;
+  position: relative;
+
+  @media screen and (max-width: 650px) {
+    height: auto;
+  }
+  & .team {
+    height: 335px;
+    padding: 3rem;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+
+    @media screen and (max-width: 650px) {
+      position: relative;
+      top: 0;
+      left: 0;
+      height: auto;
+    }
+  }
+}

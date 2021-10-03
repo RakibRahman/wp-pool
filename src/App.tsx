@@ -5,6 +5,7 @@ import { Nav } from "./components/nav/Nav";
 import { Header } from "./components/header/Header";
 import { CardContainer } from "./components/card/CardContainer";
 import { Banner } from "./components/Banner/Banner";
+import { About } from "./components/About/About";
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <CardContainer />
       <Banner />
+      <About />
     </div>
   );
 }

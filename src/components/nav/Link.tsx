@@ -6,7 +6,7 @@ export const Link = ({ text }: LinkProps) => {
     <li>
       <a
         className="uppercase transition-colors ease-in hover:text-whiteBlack-w laptop:hover:text-blue-light"
-        href={`#${text.toLocaleLowerCase()}`}
+        href={`#${text.toLocaleLowerCase().split(" ").join("-")}`}
       >
         {text}
       </a>
