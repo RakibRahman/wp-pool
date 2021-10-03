@@ -1,7 +1,7 @@
 import "./Card.scss";
 import { Card } from "./Card";
-import Cross from "../assets/header-cross.svg";
-import { CardImages } from "../helpers/images";
+import Cross from "../../assets/header-cross.svg";
+import { CardImages } from "../../helpers/images";
 export const CardContainer = () => {
   const [Shop, Software, Legal] = CardImages;
   return (

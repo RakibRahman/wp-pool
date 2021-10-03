@@ -1,6 +1,6 @@
 import "./Nav.scss";
 import { useState } from "react";
-import { NavImages } from "../helpers/images";
+import { NavImages } from "../../helpers/images";
 import { Menu } from "./Menu";
 import { Divide as Hamburger } from "hamburger-react";
 export const Nav = () => {

@@ -1,7 +1,7 @@
 import "./Header.scss";
 
-import BGText from "../assets/header-text.svg";
-import Banner from "../assets/header.svg";
+import BGText from "../../assets/header-text.svg";
+import Banner from "../../assets/header.svg";
 export const Header = () => {
   return (
     <div

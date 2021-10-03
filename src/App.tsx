@@ -1,15 +1,17 @@
 import React from "react";
 import "animate.css";
 
-import { Nav } from "./nav/Nav";
-import { Header } from "./header/Header";
-import { CardContainer } from "./card/CardContainer";
+import { Nav } from "./components/nav/Nav";
+import { Header } from "./components/header/Header";
+import { CardContainer } from "./components/card/CardContainer";
+import { Banner } from "./components/Banner/Banner";
 function App() {
   return (
     <div className="App">
       <Nav />
       <Header />
       <CardContainer />
+      <Banner />
     </div>
   );
 }
