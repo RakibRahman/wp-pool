@@ -9,7 +9,7 @@
   margin-bottom: 8rem;
   position: relative;
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 1280px) {
     height: auto;
   }
   & .team {
@@ -19,7 +19,7 @@
     top: 65%;
     left: 10%;
 
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 1280px) {
       position: relative;
       top: 0;
       left: 0;

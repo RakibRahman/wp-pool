@@ -3,7 +3,10 @@ import React from "react";
 
 export const Team = () => {
   return (
-    <div className="flex flex-col items-center gap-8 laptop:flex-row text-whiteBlack-w bg-blue-light team">
+    <div
+      id="meet-the-team"
+      className="flex flex-col items-center gap-8 laptop:flex-row text-whiteBlack-w bg-blue-light team"
+    >
       <img src={TeamBG} alt="team" />
       <div className="space-y-8">
         <h1 className="text-text-48">Meet The Team</h1>

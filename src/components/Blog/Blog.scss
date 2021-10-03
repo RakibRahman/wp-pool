@@ -1,0 +1,8 @@
+.blog {
+  height: 65vh;
+  @apply flex items-start gap-4 px-56 space-x-2 mt-96;
+  & .bar {
+    height: 100%;
+    @apply grid w-40 border-4 place-items-center  border-whiteBlack-w hover:border-blue-dark hover:bg-blue-dark;
+  }
+}

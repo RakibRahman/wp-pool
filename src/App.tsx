@@ -6,6 +6,7 @@ import { Header } from "./components/header/Header";
 import { CardContainer } from "./components/card/CardContainer";
 import { Banner } from "./components/Banner/Banner";
 import { About } from "./components/About/About";
+import { Blog } from "./components/Blog/Blog";
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
       <CardContainer />
       <Banner />
       <About />
+      <Blog />
     </div>
   );
 }
