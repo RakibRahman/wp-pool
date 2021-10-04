@@ -8,7 +8,11 @@ export const Blog = () => {
         <Bar />
       </div>
       <div className="relative flex items-center w-full bdr">
-        <img src={Plus} className="absolute z-0 -left-20 w-96" alt="plus" />
+        <img
+          src={Plus}
+          className="absolute z-0 -left-20 desktop:w-96"
+          alt="plus"
+        />
         <div className="z-50 w-10/12 mx-auto border-2 bg-blue-light border-blue-light"></div>
       </div>
     </div>

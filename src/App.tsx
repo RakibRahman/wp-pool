@@ -7,6 +7,7 @@ import { CardContainer } from "./components/card/CardContainer";
 import { Banner } from "./components/Banner/Banner";
 import { About } from "./components/About/About";
 import { Blog } from "./components/Blog/Blog";
+import { Chat } from "./components/Chat/Chat";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       <Banner />
       <About />
       <Blog />
+      <Chat />
     </div>
   );
 }
