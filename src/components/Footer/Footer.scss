@@ -1,14 +1,20 @@
 .footer {
   color: white;
+  @apply grid gap-4 px-4 py-10 mx-auto mt-20 bg-blue-dark text-text-24  place-items-center;
   & span {
     color: white;
     font-size: 2rem;
   }
+
   & .menu {
     display: flex;
     gap: 2.5rem;
     align-items: center;
-
+    & a {
+      &:hover {
+        color: deepskyblue;
+      }
+    }
     @media screen and (max-width: 768px) {
       flex-direction: column;
     }

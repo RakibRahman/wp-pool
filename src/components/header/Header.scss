@@ -1,7 +1,7 @@
 .header {
   width: 100%;
   overflow: hidden;
-  @apply flex flex-col items-center justify-between my-4 mb-14 laptop:flex-row py-10;
+  @apply flex flex-col items-center justify-between mt-44 my-4 mb-14 laptop:flex-row py-10;
 
   & .leftDiv {
     animation-name: fadeInLeft;

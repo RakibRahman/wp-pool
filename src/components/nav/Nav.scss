@@ -1,6 +1,18 @@
 p span {
   @apply text-blue-light;
 }
+.pc__nav {
+  @apply flex justify-between px-10 py-8 font-black text-text-one fixed z-50 w-full;
+}
+.pc__nav.active {
+  transition: all 1s ease-in;
+  background: deepskyblue;
+  height: 15%;
+  & span {
+    color: white;
+    font-weight: bold;
+  }
+}
 .phone__nav {
   display: none;
 }
@@ -27,9 +39,8 @@ p span {
   p,
   span {
     @apply text-whiteBlack-b;
-
-    @media screen and (max-width: 520px) {
-      font-size: 16px;
-    }
   }
+}
+.hamburger {
+  animation: rotateInUpLeft 1s 1;
 }

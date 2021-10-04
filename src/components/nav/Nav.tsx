@@ -5,6 +5,17 @@ import { Menu } from "./Menu";
 import { Divide as Hamburger } from "hamburger-react";
 export const Nav = () => {
   const [isOpen, setOpen] = useState(false);
+  const [navBG, setNavBG] = useState(false);
+
+  const scrollEffect = () => {
+    if (window.scrollY >= 100) {
+      setNavBG(true);
+      console.log("object");
+    } else {
+      setNavBG(false);
+    }
+  };
+  window.addEventListener("scroll", scrollEffect);
 
   const [NavLogo, Social, Phone, Phone2, Envelope, Envelope2] = NavImages;
   const Links = () => (
@@ -24,7 +35,7 @@ export const Nav = () => {
     </div>
   );
   const NavPC = () => (
-    <nav className="flex justify-between px-10 py-8 font-black text-text-one pc__nav">
+    <nav className={navBG ? "pc__nav active" : "pc__nav"}>
       <div>
         <img src={NavLogo} alt="logo" />
       </div>
@@ -34,10 +45,10 @@ export const Nav = () => {
   const NavPhone = () => (
     <>
       <div className="toggle__phone">
-        <div className="">
+        <div>
           <img src={NavLogo} alt="logo" />
         </div>
-        <div className="">
+        <div className="hamburger">
           <Hamburger
             toggled={isOpen}
             toggle={setOpen}
@@ -47,18 +58,18 @@ export const Nav = () => {
           />
         </div>
       </div>
-      <nav className="relative flex gap-4 px-4 phone__nav bg-blue-dark ">
+      <nav className="relative flex gap-4 px-4 text-text-one phone__nav bg-blue-dark ">
         {isOpen && (
           <div className="my-2">
             <Menu />
-            <div className="flex flex-wrap gap-4 mt-4 text-gray-light">
-              <p className="flex gap-1">
+            <div className="flex flex-wrap gap-4 mt-4 text-text-one text-gray-light">
+              <p className="flex items-center gap-2">
                 <img src={Phone2} alt="phone" />
                 <span className="hover:text-whiteBlack-w">
                   Call:(123)456-7890
                 </span>
               </p>
-              <p className="flex gap-1 ">
+              <p className="flex flex-wrap items-center gap-2">
                 <img src={Envelope2} alt="email" />
                 <span className="hover:text-whiteBlack-w">
                   Email:info@wppool.com

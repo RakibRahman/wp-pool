@@ -5,10 +5,7 @@ import "./Footer.scss";
 
 export const Footer = () => {
   return (
-    <div
-      data-aos="zoom-in"
-      className="grid gap-4 px-4 py-10 mx-auto mt-20 bg-blue-dark text-text-24 footer place-items-center "
-    >
+    <div data-aos="zoom-in" className="footer">
       <img src={Logo} alt="footer" />
       <div className="flex flex-wrap justify-center my-4 gap-14 ">
         <p className="flex gap-1">
