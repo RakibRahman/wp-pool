@@ -4,19 +4,19 @@ import { Carousel } from "./Carousel";
 export const Bar = () => {
   return (
     <>
-      <div className="bar group">
+      <div className="bar group leftBar">
         <img
           src={Left}
-          className="transition ease-in group-hover:bg-whiteBlack-w"
+          className="transition ease-in group-hover:bg-whiteBlack-w "
           alt="left arrow"
         />
       </div>
       <Carousel />
-      <div className="bar group">
+      <div className="bar group rightBar">
         <img
           src={Right}
           className="transition ease-in group-hover:bg-whiteBlack-w"
-          alt="left arrow"
+          alt="right arrow"
         />
       </div>
     </>

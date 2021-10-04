@@ -1,8 +1,36 @@
 .blog {
   height: 65vh;
-  @apply flex items-start gap-4 px-56 space-x-2 mt-96;
+  @apply flex justify-center items-start gap-4 px-4 desktop:px-56 space-x-2 laptop:mt-80 desktop:mt-96;
+
+  @media screen and (max-width: 768px) {
+    height: auto;
+  }
+
   & .bar {
     height: 100%;
     @apply grid w-40 border-4 place-items-center  border-whiteBlack-w hover:border-blue-dark hover:bg-blue-dark;
+  }
+  .leftBar {
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+  .rightBar {
+    @media screen and (max-width: 768px) {
+      height: 30vh;
+    }
+  }
+}
+.bdr {
+  @media screen and (max-width: 1280px) {
+    margin-top: 30rem;
+    & img {
+      width: 50%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    margin-top: 12rem;
   }
 }

@@ -5,11 +5,11 @@ import Cross from "../../assets/header-cross.svg";
 
 export const Carousel = () => {
   return (
-    <div className="relative flex items-center gap-2">
+    <div className="relative flex flex-col-reverse items-center gap-2 mx-auto desktop:flex-row">
       <img
         src={Cross}
         alt="x"
-        className="absolute z-0 ml-56 left-60 w-96 -top-36"
+        className="absolute top-0 left-0 z-0 desktop:ml-56 laptop:left-60 w-96 laptop:-top-36"
       />
 
       <Info />
@@ -17,10 +17,10 @@ export const Carousel = () => {
         <div className="relative">
           <img
             src={Pic}
-            className="object-cover w-full transition-transform ease-in transform h-9/12 hover:scale-105"
+            className="z-50 object-cover w-full transition-transform ease-in transform h-9/12 hover:scale-105"
             alt="demo pic"
           />
-          <span className="absolute w-7/12 font-bold bottom-10 left-10 text-text-36 text-whiteBlack-w">
+          <span className="absolute w-7/12 text-2xl font-bold bottom-10 left-10 laptop:text-text-36 text-whiteBlack-w">
             The Title of a Blog Post Would Go Right Here
           </span>
         </div>

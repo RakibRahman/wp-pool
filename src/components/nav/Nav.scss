@@ -15,11 +15,7 @@ p span {
   }
   .phone__nav {
     display: flex;
-    animation-name: cssAnimation;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
-    animation-fill-mode: forwards;
+    animation: backInRight 0.51s 1;
   }
   .toggle__phone {
     display: flex;
@@ -35,13 +31,5 @@ p span {
     @media screen and (max-width: 520px) {
       font-size: 16px;
     }
-  }
-}
-@keyframes cssAnimation {
-  from {
-    transform: rotate(0deg) scale(0.5) skew(0deg) translate(100px);
-  }
-  to {
-    transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
   }
 }

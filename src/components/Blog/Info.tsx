@@ -1,10 +1,10 @@
 export const Info = () => {
   return (
-    <div className="w-5/12 space-y-4">
-      <h1 className="z-50 mt-20 font-black text-text-48 text-blue-dark">
+    <div className="space-y-4 desktop:w-5/12">
+      <h1 className="z-50 mt-20 font-black desktop:text-text-48 text-blue-dark">
         Latest from the Blog
       </h1>
-      <p className="w-11/12 text-text-one">
+      <p className="desktop:w-11/12 desktop:text-text-one">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna.
       </p>
