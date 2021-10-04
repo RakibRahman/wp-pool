@@ -1,4 +1,3 @@
-import "./Chat.scss";
 import Conversation from "../../assets/conversation.svg";
 export const Chat = () => {
   return (

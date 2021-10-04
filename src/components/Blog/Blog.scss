@@ -21,6 +21,9 @@
       height: 30vh;
     }
   }
+  .btn {
+    @apply px-4 py-2 font-black border-4 text-blue-dark text-text-one border-blue-light hover:bg-blue-light hover:text-whiteBlack-w;
+  }
 }
 .bdr {
   @media screen and (max-width: 1280px) {

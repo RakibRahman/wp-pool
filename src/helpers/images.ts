@@ -1,5 +1,4 @@
 import NavLogo from "../assets/nav-logo.svg";
-// import Logo from "../assets/logo.svg";
 import Social from "../assets/social.svg";
 import Phone from "../assets/phone.svg";
 import Phone2 from "../assets/phone2.svg";

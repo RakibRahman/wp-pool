@@ -8,9 +8,7 @@ export const Info = () => {
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna.
       </p>
-      <button className="px-4 py-2 font-black border-4 text-blue-dark text-text-one border-blue-light hover:bg-blue-light hover:text-whiteBlack-w">
-        visit the blog
-      </button>
+      <button className="btn">visit the blog</button>
     </div>
   );
 };

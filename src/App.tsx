@@ -8,6 +8,7 @@ import { Banner } from "./components/Banner/Banner";
 import { About } from "./components/About/About";
 import { Blog } from "./components/Blog/Blog";
 import { Chat } from "./components/Chat/Chat";
+import { Footer } from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Blog />
       <Chat />
+      <Footer />
     </div>
   );
 }

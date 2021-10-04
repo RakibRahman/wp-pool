@@ -1,0 +1,19 @@
+.footer {
+  color: white;
+  & span {
+    color: white;
+    font-size: 2rem;
+  }
+  & .menu {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+  & .copy {
+    font-size: 1.5rem;
+  }
+}
