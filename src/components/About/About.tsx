@@ -6,6 +6,7 @@ export const About = () => {
   return (
     <>
       <div
+        data-aos="fade-in"
         id="about-us"
         className="relative pb-24 overflow-hidden bg-blue-dark about"
       >

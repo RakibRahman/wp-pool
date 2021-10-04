@@ -3,7 +3,7 @@ import Plus from "../../assets/plus-white.svg";
 import { Bar } from "./Bar";
 export const Blog = () => {
   return (
-    <div className="relative">
+    <div data-aos="slide-left" className="relative">
       <div id="blog" className=" laptop:mb-64 blog">
         <Bar />
       </div>

@@ -1,7 +1,9 @@
 import Conversation from "../../assets/conversation.svg";
+
 export const Chat = () => {
   return (
     <div
+      data-aos="slide-right"
       className="grid gap-4 px-4 mx-auto my-48 tablet:w-7/12 place-items-center chat"
       id="contact"
     >

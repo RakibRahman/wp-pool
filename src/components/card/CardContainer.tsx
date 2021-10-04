@@ -5,7 +5,7 @@ import { CardImages } from "../../helpers/images";
 export const CardContainer = () => {
   const [Shop, Software, Legal] = CardImages;
   return (
-    <div className="relative text-center card__container">
+    <div data-aos="fade-up" className="relative text-center card__container">
       <div className="my-4 ">
         <h1 className="font-black text-text-48 text-blue-dark ">
           Lorem Ipsum is simply dummy text

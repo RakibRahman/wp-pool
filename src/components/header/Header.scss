@@ -15,7 +15,7 @@
     }
     & .btn {
       @apply px-4 py-2 font-black transition ease-in-out delay-100 border-4 text-text-24 border-blue-light text-blue-dark hover:bg-blue-light hover:text-whiteBlack-w;
-      animation: show 2s 1 4.5s, jello 2s infinite 5s;
+      animation: show 2s 1 4.5s, jello 3s infinite 5s;
     }
   }
   & .banner {

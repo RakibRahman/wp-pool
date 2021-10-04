@@ -4,7 +4,7 @@ import Apd from "../../assets/adp.jpg";
 
 export const Banner = () => {
   return (
-    <div className="flex flex-col items-center justify-between px-20 py-4 my-4 mb-20 laptop:px-24 laptop:flex-row banner bg-whiteBlack-w">
+    <div data-aos="fade-down" className=" banner">
       <div className="laptop:w-7/12">
         <h1 className="font-black text-text-24 text-blue-dark laptop:text-text-48">
           Lorem Ipsum is simply
