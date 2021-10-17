@@ -14,8 +14,10 @@ export const Header = () => {
         backgroundSize: "180%",
       }}
     >
-      <div className="pb-6 pl-10 overflow-hidden leftDiv laptop:w-3/6">
-        <h1 className="text-text-30 text-blue-light">What is Lorem Ipsum?</h1>
+      <div className="pb-6 pl-10 leftDiv laptop:w-3/6">
+        <h1 className="text-text-30 tablet:text-text-36 text-blue-light">
+          What is Lorem Ipsum?
+        </h1>
         <p>Lorem Ipsum is simply dummy text of the printing and</p>
         <button className="btn">Learn About</button>
       </div>

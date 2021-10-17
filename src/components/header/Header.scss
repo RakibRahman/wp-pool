@@ -1,7 +1,7 @@
 .header {
   width: 100%;
   overflow: hidden;
-  @apply flex flex-col items-center justify-between mt-44 my-4 mb-14 laptop:flex-row py-10;
+  @apply flex flex-col items-center justify-between mt-44 my-4 mb-14 laptop:flex-row py-10 border-4;
 
   & .leftDiv {
     animation-name: fadeInLeft;
@@ -10,7 +10,7 @@
       animation: show 2s 1 3s;
     }
     & p {
-      @apply mb-10 font-black tracking-tighter text-text-24 tablet:text-text-36 desktop:text-text-72 text-blue-dark;
+      @apply mb-10 font-black tracking-tighter leading-tight text-text-24 tablet:text-text-36 desktop:text-text-72 text-blue-dark;
       animation: show 2s 1 4s;
     }
     & .btn {
@@ -19,11 +19,16 @@
     }
   }
   & .banner {
-    width: 100%;
+    width: 50%;
     max-width: 655px;
     animation-name: fadeInRight;
     animation-duration: 1s;
     transition: all 0.5s ease;
+    & img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
     & img:hover {
       filter: hue-rotate(180deg);
       transform: scale(1.01);

@@ -3,12 +3,18 @@
 @tailwind components;
 @tailwind utilities;
 * {
-  font-family: eurostile, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
 html {
-  font-size: 62.5%;
   scroll-behavior: smooth;
+  font-size: 62.5%; //10px = 1rem
+  font-family: eurostile, sans-serif;
+  -webkit-text-size-adjust: none;
 }
+
 .App {
   background: #ffffff;
 }
